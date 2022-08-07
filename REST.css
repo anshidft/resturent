@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#09203f,#537895 ),url(3.jpg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.062);
+    color: red;
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar img{
+margin-top: -20px;
+}
+.navbar ul {
+    float: right;
+}
+
+.navbar ul li {
+    display: inline-flex;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  margin-top:29px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.5s ease;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+h1{
+    color: whitesmoke;
+    text-underline-position: below;
+    text-shadow: #537895;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:green ;
+}
+
+
+.gap{
+    height: 100px;
+}
+.container{
+   display: inline-block;
+
+
+}
+.item{
+height: 250px;
+width: 250px;
+/* border: 1px solid black; */
+margin: 30px;
+padding: 20px;
+}
+.item img{
+    height: 200px;
+    width: 250px;
+  transition: 0.5s ease;
+  border-radius: 15px;
+  border: aquamarine;
+
+}
+.item img:hover{
+    transform: scale(1.2);
+}
+.item button{
+    float: right;
+    margin-right:10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(6, 7, 6);
+    color: rgb(243, 199, 199);
+  transition: 0.5s ease;
+
+}
+.item button:hover{
+    transform: scale(1.3);
+}
+.item label{
+    color: rgb(240, 226, 226);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+input{
+    border-radius: 10px;
+    border: none;
+
+}
+textarea{
+    border-radius: 10px;
+    border: none;
+}
+button{
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: aqua;
+    color: red;
+    font-size: 30px;
+}   
+.footer{
+    margin-left: 80%;
+}
+.footer img {
+    width: 50px;
+    height: 50px;
+    
+}
+#foot{
+    width:30px ;
+    height: 20px;
+}
+  
